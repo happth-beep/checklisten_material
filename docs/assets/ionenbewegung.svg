@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="390" viewBox="0 0 720 390" role="img" aria-labelledby="title desc">
+<title id="title">Gerichtete Ionenbewegung in einer Natriumchloridlösung</title>
+<desc id="desc">Links liegt eine negative Elektrode, rechts eine positive. Drei Natriumionen bewegen sich nach links und drei Chloridionen nach rechts. Beide Ionensorten tragen zum Strom bei. Wasser und Hydrathüllen sind nicht dargestellt.</desc>
+<defs><marker id="teal" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7Z" fill="#17685c"/></marker><marker id="rust" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7Z" fill="#ab522d"/></marker></defs>
+<rect x="54" y="73" width="612" height="247" rx="24" fill="#fffefb" stroke="#b4c6bc" stroke-width="2"/>
+<rect x="69" y="66" width="25" height="249" rx="8" fill="#173331"/><rect x="626" y="66" width="25" height="249" rx="8" fill="#173331"/>
+<g font-family="system-ui,sans-serif" text-anchor="middle" fill="#173331"><text x="82" y="43" font-size="28">−</text><text x="638" y="43" font-size="28">+</text><text x="360" y="35" font-size="19">Im elektrischen Feld</text></g>
+<g fill="#e2f1e7" stroke="#17685c" stroke-width="2"><circle cx="255" cy="130" r="29"/><circle cx="421" cy="194" r="29"/><circle cx="270" cy="263" r="29"/></g>
+<g fill="#fae8da" stroke="#ab522d" stroke-width="2"><circle cx="449" cy="120" r="29"/><circle cx="226" cy="196" r="29"/><circle cx="441" cy="270" r="29"/></g>
+<g font-family="system-ui,sans-serif" font-size="21" text-anchor="middle" dominant-baseline="central"><g fill="#17685c"><text x="255" y="130">Na⁺</text><text x="421" y="194">Na⁺</text><text x="270" y="263">Na⁺</text></g><g fill="#95421f"><text x="449" y="120">Cl⁻</text><text x="226" y="196">Cl⁻</text><text x="441" y="270">Cl⁻</text></g></g>
+<g stroke="#17685c" stroke-width="3" marker-end="url(#teal)"><path d="M217 130H153"/><path d="M383 194H319"/><path d="M232 263H168"/></g>
+<g stroke="#ab522d" stroke-width="3" marker-end="url(#rust)"><path d="M487 120H551"/><path d="M264 196H304"/><path d="M479 270H543"/></g>
+<g font-family="system-ui,sans-serif" font-size="17" text-anchor="middle"><text x="213" y="364" fill="#17685c">Na⁺: zur negativen Elektrode</text><text x="516" y="364" fill="#95421f">Cl⁻: zur positiven Elektrode</text></g>
+</svg>
