@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="720" viewBox="0 0 600 720" role="img" aria-labelledby="title desc">
+<title id="title">Vorverdünnung und Aliquot: Stoffmengenbilanz</title><desc id="desc">Die ursprüngliche Stoffmenge n null in V null bleibt beim Verdünnen auf V D erhalten. Das untersuchte Aliquot V A enthält nur den Anteil V A durch V D von n null.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#17685c"/></marker></defs>
+<g font-family="system-ui, sans-serif" fill="#173331" text-anchor="middle">
+<rect x="28" y="20" width="544" height="148" rx="18" fill="#fffefb" stroke="#a8bbb2" stroke-width="2"/>
+<text x="300" y="64" font-size="27" font-weight="650">Originalprobe</text><text x="300" y="105" font-size="25">Volumen V₀ · Stoffmenge n₀</text><text x="300" y="140" font-size="24">Konzentration c₀</text>
+<path d="M300 177V240" stroke="#17685c" stroke-width="3" marker-end="url(#arrow)"/><text x="327" y="211" text-anchor="start" font-size="22">nur Wasser hinzu</text>
+<rect x="28" y="258" width="544" height="148" rx="18" fill="#fffefb" stroke="#a8bbb2" stroke-width="2"/>
+<text x="300" y="302" font-size="27" font-weight="650">Vorverdünnte Lösung</text><text x="300" y="343" font-size="25">Volumen V<tspan baseline-shift="sub" font-size="18">D</tspan> · Stoffmenge weiterhin n₀</text><text x="300" y="378" font-size="24">Konzentration c<tspan baseline-shift="sub" font-size="18">D</tspan> = c₀ · V₀ / V<tspan baseline-shift="sub" font-size="18">D</tspan></text>
+<path d="M300 416V478" stroke="#17685c" stroke-width="3" marker-end="url(#arrow)"/><text x="327" y="450" text-anchor="start" font-size="22">nur ein Teil erfasst</text>
+<rect x="28" y="496" width="544" height="199" rx="18" fill="#e8f1e9" stroke="#17685c" stroke-width="2"/>
+<text x="300" y="542" font-size="27" font-weight="650">Untersuchtes Aliquot</text><text x="300" y="584" font-size="25">Volumen V<tspan baseline-shift="sub" font-size="18">A</tspan> · gleiche Konzentration c<tspan baseline-shift="sub" font-size="18">D</tspan></text><text x="300" y="627" font-size="25">Stoffmenge n<tspan baseline-shift="sub" font-size="18">A</tspan> = n₀ · V<tspan baseline-shift="sub" font-size="18">A</tspan> / V<tspan baseline-shift="sub" font-size="18">D</tspan></text><text x="300" y="671" font-size="23" fill="#17685c">Diese Stoffmenge liefert die Titration.</text>
+</g></svg>

@@ -5,14 +5,25 @@ Die Nummern der Lernangebote entsprechen den Punkten der Checkliste.
 
 ## Aktueller Stand
 
-- Startseite und Übersicht über alle 25 Punkte der Reihe Konduktometrie
-- Infomaterial **1.1 – Warum leiten wässrige Lösungen Strom?** mit eigenem Teilchenbild
-- Übung **1.2 – Salzlösungen vergleichen** mit gestuften Hilfen, Musterlösungen und optionalem Zusatztransfer
-- Weitere Angebote als „In Vorbereitung“ gekennzeichnet
-- Suchfunktion, Filter für verfügbare Angebote und Druckansicht
-- Mobile Darstellung und vollständig lesbare Inhalte auch ohne JavaScript
+Alle **25 Checklistenpunkte** haben ein eigenes Lernangebot mit stabiler Adresse.
 
-## GitHub Pages einschalten
+| Bereich | Punkte | Schwerpunkte |
+| --- | --- | --- |
+| Leitfähigkeit und Ionenbeweglichkeit | 1.1–1.4 | Teilchenmodell, Salzvergleich, Protonenübertragung, Größen und Einheiten |
+| Einflussgrößen und Summenparameter | 2.1–2.3 | Konzentration, Temperatur, Grenzen von Leitfähigkeitsmessungen |
+| Titrationskurven | 3.1–3.6 | Ionengleichungen, starke/schwache Säuren, Fällung, Äquivalenzpunkt |
+| Grafisch auswerten | 4.1–4.4 | Diagramme, Volumenkorrektur, Geradenbereiche, Schnittpunkt |
+| Stoffmengen und Gehalte | 5.1–5.5 | Stoffmenge, Konzentration, Massenkonzentration, Wasserzugabe, Vorverdünnung |
+| Ergebnisse beurteilen | 6.1–6.3 | Begleitionen, mitreagierende Stoffe, Plausibilität und Genauigkeit |
+
+- Infomaterial und Übungen entsprechend der Materialplanung
+- Gestufte Hilfen und begründete Musterlösungen, zunächst geschlossen
+- Eigene Diagramme sowie druckbare Raster und Auswertungen in Bereich 4
+- Suchfunktion, Filter und Druckansicht
+- Mobile Gestaltung und lesbare Inhalte auch ohne JavaScript
+- Keine praktischen Durchführungsschritte, Arbeitsablaufpläne oder Titeraufgaben
+
+## Veröffentlichung auf GitHub Pages
 
 1. Im Repository **Settings → Pages** öffnen.
 2. Unter **Build and deployment → Source** die Option **Deploy from a branch** auswählen.
@@ -34,6 +45,8 @@ Der Ordner `docs` enthält die vollständige Website. GitHub Pages ist bereits f
 | `docs/assets/site.js` | Suche, Verfügbarkeitsfilter und Druckschaltfläche |
 | `docs/assets/ionenbewegung.svg` | Schematisches Teilchenbild |
 
+Alle Lernseiten liegen nach demselben Schema unter `docs/konduktometrie/<Nummer-mit-Bindestrich>/index.html`. Zusätzliche Grafiken und Druckseiten befinden sich gegebenenfalls im jeweiligen Unterordner.
+
 Die HTML-Dateien sind die direkt editierbaren Quelldateien. Eine Änderung wird nach dem Commit auf `main` automatisch veröffentlicht, sobald Pages aktiviert ist.
 
 ### Einen Text auf GitHub ändern
@@ -46,13 +59,13 @@ Die HTML-Dateien sind die direkt editierbaren Quelldateien. Eine Änderung wird 
 
 ### Ein weiteres Lernangebot ergänzen
 
-1. Für Punkt 1.3 beispielsweise `docs/konduktometrie/1-3/index.html` anlegen. Die Struktur von 1.1 kann als Vorlage dienen; Titel, Beschreibung, Inhalt, Inhaltsnavigation und Quellen anpassen.
-2. In der Übersicht die passende Zeile suchen, z. B. `id="punkt-1-3"`.
+1. Für einen neuen Checklistenpunkt einen entsprechenden Ordner unter `docs/konduktometrie/` anlegen. Die Punkte 1.1–6.3 sind bereits belegt. Eine bestehende Seite als Vorlage kopieren; Titel, Beschreibung, Inhalt, Inhaltsnavigation und Quellen anpassen.
+2. In der Übersicht die passende Zeile anlegen oder eine vorhandene Zeile aktualisieren; Nummer und Zielordner müssen zusammenpassen.
 3. In dieser Zeile `data-ready="false"` auf `data-ready="true"` ändern und der Klasse `lesson-row` die Klasse `ready` hinzufügen.
-4. Den Status „In Vorbereitung“ durch einen Link auf `1-3/index.html` ersetzen. Die Materialart kontrollieren.
+4. Den Status „In Vorbereitung“ durch einen Link auf die neue Seite ersetzen. Die Materialart kontrollieren.
 5. Den Verfügbarkeitshinweis auf Startseite und Übersicht aktualisieren.
 
-Nummern und bereits veröffentlichte Ordnernamen bleiben stabil. So behalten später gedruckte QR-Codes ihr Ziel. Die geplante Adresse für 1.1 endet in `/konduktometrie/1-1/`. QR-Codes erst nach Aktivierung und Prüfung der tatsächlichen Website-Adresse erzeugen.
+Nummern und bereits veröffentlichte Ordnernamen bleiben stabil. So behalten später gedruckte QR-Codes ihr Ziel. Die Website liegt unter `https://happth-beep.github.io/checklisten_material/`. Die Adresse für 1.1 endet in `/konduktometrie/1-1/`; das gleiche Schema gilt für alle 25 Punkte. Vor dem Erzeugen und Drucken von QR-Codes die konkreten Zieladressen prüfen.
 
 ## Lokal ansehen oder später umziehen
 
@@ -72,6 +85,6 @@ Die Druckschaltfläche öffnet vor dem Drucken alle Hilfen und Lösungen und ste
 
 ## Inhalt und Quellen
 
-Der erste Lerntext und das Teilchenbild sind eigenständig erstellt. Fachliche Quellen stehen beim Lernmaterial. Es werden keine externen Schriftarten, JavaScript-Bibliotheken, eingebetteten Videos oder zusätzlichen Analysedienste geladen. Die Website legt selbst keine Schülerkonten an und speichert keine Lernstände. Der Hostinganbieter kann unabhängig davon Zugriffsprotokolle führen.
+Die Lerntexte, Aufgaben, Musterlösungen und Abbildungen sind eigenständig erstellt. Fachliche Quellen stehen beim jeweiligen Lernmaterial. Synthetische Daten und schematische Kurven sind als solche gekennzeichnet; sie sind keine Messungen realer Schülerproben. Modellannahmen, etwa konstante Temperatur oder eine Volumenkorrektur, stehen bei den Aufgaben. Es werden keine externen Schriftarten, JavaScript-Bibliotheken, eingebetteten Videos oder zusätzlichen Analysedienste geladen. Die Website legt selbst keine Schülerkonten an und speichert keine Lernstände. Der Hostinganbieter kann unabhängig davon Zugriffsprotokolle führen.
 
 Eine offene Lizenz für Texte und Abbildungen wurde noch nicht festgelegt.

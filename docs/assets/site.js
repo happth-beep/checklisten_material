@@ -14,7 +14,7 @@ if (search && readyOnly) {
   const sections = [...document.querySelectorAll('[data-topic]')];
   const status = document.querySelector('[data-filter-status]');
   const empty = document.querySelector('[data-empty]');
-  const normalize = value => value.toLocaleLowerCase('de').normalize('NFD').replace(/[\u0300-\u036f]/g, '').trim();
+  const normalize = value => value.toLocaleLowerCase('de').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').trim();
   const update = () => {
     const query = normalize(search.value);
     let visible = 0;

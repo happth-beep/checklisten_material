@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360" viewBox="0 0 480 360" role="img" aria-labelledby="title desc">
+<title id="title">Leitwert bei unterschiedlichen Weglängen</title>
+<desc id="desc">Zwei gedachte Lösungsabschnitte mit demselben Querschnitt A und derselben Leitfähigkeit kappa: Weglänge l liefert den Leitwert G; doppelte Weglänge 2l liefert den halben Leitwert G durch 2.</desc>
+<defs><marker id="dimension" markerWidth="5" markerHeight="6" refX="2.5" refY="3" orient="auto-start-reverse"><path d="M5 0 L0 3 L5 6" fill="none" stroke="#173331" stroke-width="1.2"/></marker></defs>
+<g font-family="system-ui,sans-serif" fill="#173331">
+<text x="240" y="30" text-anchor="middle" font-size="21" font-weight="650">Gleiche Lösung · gleicher Querschnitt A</text>
+<rect x="70" y="86" width="140" height="64" fill="#c9e0d4"/><rect x="62" y="75" width="8" height="87" rx="2" fill="#17685c"/><rect x="210" y="75" width="8" height="87" rx="2" fill="#17685c"/>
+<line x1="71" y1="58" x2="209" y2="58" stroke="#173331" marker-start="url(#dimension)" marker-end="url(#dimension)"/>
+<rect x="129" y="43" width="22" height="25" fill="#e5eee6"/><text x="140" y="63" text-anchor="middle" font-size="22">l</text>
+<text x="263" y="126" font-size="25" font-weight="650">Leitwert G</text>
+<rect x="70" y="235" width="280" height="64" fill="#c9e0d4"/><rect x="62" y="224" width="8" height="87" rx="2" fill="#17685c"/><rect x="350" y="224" width="8" height="87" rx="2" fill="#17685c"/>
+<line x1="71" y1="207" x2="349" y2="207" stroke="#173331" marker-start="url(#dimension)" marker-end="url(#dimension)"/>
+<rect x="192" y="191" width="36" height="26" fill="#e5eee6"/><text x="210" y="212" text-anchor="middle" font-size="22">2l</text>
+<text x="387" y="276" font-size="25" font-weight="650">G/2</text>
+<text x="240" y="346" text-anchor="middle" font-size="19">Die Leitfähigkeit κ bleibt gleich.</text>
+</g></svg>

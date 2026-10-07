@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="470" viewBox="0 0 480 470" role="img" aria-labelledby="title desc">
+<title id="title">Positive Ladung durch Protonenübertragungen verlagern</title>
+<desc id="desc">Die drei Spalten A, B und C markieren dieselben Sauerstoffzentren. Zuerst liegt H3O plus bei A, danach bei B, danach bei C. Alle anderen Plätze sind jeweils H2O. Nicht ein bestimmtes Teilchen, sondern die Überschussladung wird entlang der Reihe verfolgt.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6" fill="none" stroke="#a75c35" stroke-width="1.5"/></marker></defs>
+<g font-family="system-ui,sans-serif" text-anchor="middle" fill="#173331">
+<text x="80" y="32" font-size="22" font-weight="700">Ort A</text><text x="240" y="32" font-size="22" font-weight="700">Ort B</text><text x="400" y="32" font-size="22" font-weight="700">Ort C</text>
+<g fill="#fffdf8" stroke="#a8bbb2"><rect x="20" y="59" width="120" height="64" rx="16"/><rect x="180" y="59" width="120" height="64" rx="16"/><rect x="340" y="59" width="120" height="64" rx="16"/>
+<rect x="20" y="207" width="120" height="64" rx="16"/><rect x="180" y="207" width="120" height="64" rx="16"/><rect x="340" y="207" width="120" height="64" rx="16"/>
+<rect x="20" y="355" width="120" height="64" rx="16"/><rect x="180" y="355" width="120" height="64" rx="16"/><rect x="340" y="355" width="120" height="64" rx="16"/></g>
+<g fill="#17685c"><rect x="20" y="59" width="120" height="64" rx="16"/><rect x="180" y="207" width="120" height="64" rx="16"/><rect x="340" y="355" width="120" height="64" rx="16"/></g>
+<g font-size="28" font-weight="650"><text x="80" y="101" fill="white">H₃O⁺</text><text x="240" y="101">H₂O</text><text x="400" y="101">H₂O</text><text x="80" y="249">H₂O</text><text x="240" y="249" fill="white">H₃O⁺</text><text x="400" y="249">H₂O</text><text x="80" y="397">H₂O</text><text x="240" y="397">H₂O</text><text x="400" y="397" fill="white">H₃O⁺</text></g>
+<g stroke="#a75c35" stroke-width="2.5" marker-end="url(#arrow)"><path d="M80 133 C80 160 210 143 231 196" fill="none"/><path d="M240 281 C240 308 370 291 391 344" fill="none"/></g>
+<text x="318" y="165" font-size="18">Proton: A → B</text><text x="126" y="318" font-size="18">Proton: B → C</text>
+<text x="240" y="456" font-size="18">Grün: Ort der positiven Überschussladung</text>
+</g></svg>
