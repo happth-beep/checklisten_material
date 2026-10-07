@@ -19,7 +19,7 @@ if (search && readyOnly) {
     const query = normalize(search.value);
     let visible = 0;
     rows.forEach(row => {
-      const matches = normalize(row.textContent).includes(query);
+      const matches = normalize(`${row.textContent} ${row.dataset.searchTerms || ''}`).includes(query);
       row.hidden = !(matches && (!readyOnly.checked || row.dataset.ready === 'true'));
       if (!row.hidden) visible++;
     });
