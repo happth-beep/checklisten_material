@@ -1,11 +1,34 @@
 # checklisten_material
 
-Lernmaterial zur individuellen Klausurvorbereitung in Chemie, Jahrgang 13.
+Lernmaterial zur individuellen Wiederholung und Klausurvorbereitung in Chemie, Jahrgang 13.
 Die Nummern der Lernangebote entsprechen den Punkten der Checkliste.
 
 ## Aktueller Stand
 
-Alle **25 Checklistenpunkte** haben ein eigenes Lernangebot mit stabiler Adresse.
+Es gibt zwei Unterrichtsreihen mit insgesamt **57 Checklistenpunkten**. Jeder Punkt hat ein eigenes Lernangebot mit stabiler Adresse. Die Nummern gelten jeweils innerhalb der gewählten Reihe.
+
+### Elektrochemische Energiequellen und Spannungsreihe
+
+Die neue Reihe enthält **32 Lernangebote** sowie eine **Abschlussübung** für etwa 25 bis 30 Minuten.
+
+| Bereich | Punkte | Schwerpunkte |
+| --- | --- | --- |
+| Metallabscheidung und Redoxreihe | 1.1–1.4 | Beobachtung, Redoxpartner, Bilanzierung, qualitative Reihe |
+| Galvanische Zellen und Potentialentstehung | 2.1–2.5 | Daniell-Element, Ladungswege, Doppelschicht, Messungen |
+| Bezugselektrode und Spannungsreihe | 3.1–3.4 | Relative Potentiale, NWE, Standardpotentiale und Gültigkeit |
+| Konzentrationsabhängigkeit der Potentiale | 4.1–4.4 | Konzentrationselement, Nernst-Gleichung bei 25 °C, Zellspannungen |
+| Elektrolyse und ihre Umkehrung | 5.1–5.4 | Laden und Entladen, Elektrodenrollen, Ladung und Energie |
+| Faradaysches Gesetz und Elementarladung | 6.1–6.4 | Stoffumsatz, Rechnen, Datenauswertung, F und e |
+| Quantitative Arbeitsweise und Elektrogravimetrie | 7.1–7.4 | Messplan, Praxisnachweis, Fehleranalyse, Gehaltsbestimmung |
+| Elektrochemische Energiequellen beurteilen | 8.1–8.3 | Primärzelle, Akku, PEM-Brennstoffzelle, begründetes Sachurteil |
+
+Jede Seite bietet einen wählbaren Informationsteil, offene Aufgaben, gestufte Hilfen und begründete Musterlösungen. Hilfen und Lösungen sind anfangs geschlossen. Eigene Schemata sowie gekennzeichnete konstruierte Datensätze unterstützen die Bearbeitung. Die Reihe umfasst auch praktische Kompetenzen; das Onlineangebot zu 7.2 ersetzt die Durchführung im beaufsichtigten Unterricht nicht. Die Checkliste legt nicht automatisch den Umfang einer schriftlichen Klausur fest.
+
+Nernst-Rechnungen beschränken sich auf Metall/Metallion-Halbzellen bei 25 °C. Die Konzentrationsnäherung wird benannt; pH- und Temperaturvariation werden nicht ergänzt. Erweiterungen, etwa die Trapezregel oder eine Wirkungsgradrechnung, sind entsprechend gekennzeichnet.
+
+### Konduktometrie
+
+Alle bisherigen **25 Lernangebote** bleiben unter ihren vorhandenen Adressen erreichbar.
 
 | Bereich | Punkte | Schwerpunkte |
 | --- | --- | --- |
@@ -36,7 +59,11 @@ Der Ordner `docs` enthält die vollständige Website. GitHub Pages ist bereits f
 
 | Datei | Inhalt |
 | --- | --- |
-| `docs/index.html` | Startseite |
+| `docs/index.html` | Startseite mit beiden Unterrichtsreihen |
+| `docs/elektrochemie/index.html` | Neue Übersicht mit 32 Checklistenpunkten und Suche |
+| `docs/elektrochemie/4-3/index.html` | Beispiel: Nernst-Gleichung zu Punkt 4.3 |
+| `docs/elektrochemie/abschluss/index.html` | Verbindende Abschlussübung mit Hilfen und Lösungen |
+| `docs/assets/elektrochemie.css` | Ergänzende Gestaltung für Elektrochemie und die Startseite |
 | `docs/konduktometrie/index.html` | Übersicht, Checklistenformulierungen, Materialarten und Verfügbarkeit |
 | `docs/konduktometrie/1-1/index.html` | Lerntext zu Punkt 1.1 |
 | `docs/konduktometrie/1-2/index.html` | Übung zu Punkt 1.2 mit Hilfen und Lösungen |
@@ -45,7 +72,7 @@ Der Ordner `docs` enthält die vollständige Website. GitHub Pages ist bereits f
 | `docs/assets/site.js` | Suche, Verfügbarkeitsfilter und Druckschaltfläche |
 | `docs/assets/ionenbewegung.svg` | Schematisches Teilchenbild |
 
-Alle Lernseiten liegen nach demselben Schema unter `docs/konduktometrie/<Nummer-mit-Bindestrich>/index.html`. Zusätzliche Grafiken und Druckseiten befinden sich gegebenenfalls im jeweiligen Unterordner.
+Alle Lernseiten liegen nach demselben Schema unter `docs/<Reihe>/<Nummer-mit-Bindestrich>/index.html`, also beispielsweise `docs/konduktometrie/1-1/index.html` und `docs/elektrochemie/1-1/index.html`. Zusätzliche Grafiken und Druckseiten befinden sich gegebenenfalls im jeweiligen Unterordner. Die HTML-Dateien sind vollständig und ohne Build-Schritt editierbar; die Darstellung benötigt keine externen JavaScript-Bibliotheken.
 
 Die HTML-Dateien sind die direkt editierbaren Quelldateien. Eine Änderung wird nach dem Commit auf `main` automatisch veröffentlicht, sobald Pages aktiviert ist.
 
@@ -59,13 +86,13 @@ Die HTML-Dateien sind die direkt editierbaren Quelldateien. Eine Änderung wird 
 
 ### Ein weiteres Lernangebot ergänzen
 
-1. Für einen neuen Checklistenpunkt einen entsprechenden Ordner unter `docs/konduktometrie/` anlegen. Die Punkte 1.1–6.3 sind bereits belegt. Eine bestehende Seite als Vorlage kopieren; Titel, Beschreibung, Inhalt, Inhaltsnavigation und Quellen anpassen.
+1. Für einen neuen Checklistenpunkt einen entsprechenden Ordner unter der passenden Reihe anlegen. Bereits belegte Nummern nicht neu verwenden. Eine bestehende Seite als Vorlage kopieren; Titel, Beschreibung, Inhalt, Inhaltsnavigation und Quellen anpassen.
 2. In der Übersicht die passende Zeile anlegen oder eine vorhandene Zeile aktualisieren; Nummer und Zielordner müssen zusammenpassen.
 3. In dieser Zeile `data-ready="false"` auf `data-ready="true"` ändern und der Klasse `lesson-row` die Klasse `ready` hinzufügen.
 4. Den Status „In Vorbereitung“ durch einen Link auf die neue Seite ersetzen. Die Materialart kontrollieren.
 5. Den Verfügbarkeitshinweis auf Startseite und Übersicht aktualisieren.
 
-Nummern und bereits veröffentlichte Ordnernamen bleiben stabil. So behalten später gedruckte QR-Codes ihr Ziel. Die Website liegt unter `https://happth-beep.github.io/checklisten_material/`. Die Adresse für 1.1 endet in `/konduktometrie/1-1/`; das gleiche Schema gilt für alle 25 Punkte. Vor dem Erzeugen und Drucken von QR-Codes die konkreten Zieladressen prüfen.
+Nummern und bereits veröffentlichte Ordnernamen bleiben stabil. So behalten gedruckte QR-Codes ihr Ziel. Die Website liegt unter `https://happth-beep.github.io/checklisten_material/`. Die Adresse für Konduktometrie 1.1 endet in `/konduktometrie/1-1/`, für Elektrochemie 1.1 in `/elektrochemie/1-1/`. Vor dem Erzeugen und Drucken von QR-Codes die konkreten Zieladressen prüfen.
 
 ## Lokal ansehen oder später umziehen
 
