@@ -60,6 +60,7 @@ Der Ordner `docs` enthält die vollständige Website. GitHub Pages ist bereits f
 | Datei | Inhalt |
 | --- | --- |
 | `docs/index.html` | Startseite mit beiden Unterrichtsreihen |
+| `docs/impressum.html` | Anbieterkennzeichnung und Kontakt; von allen HTML-Seiten direkt verlinkt |
 | `docs/elektrochemie/index.html` | Neue Übersicht mit 32 Checklistenpunkten und Suche |
 | `docs/elektrochemie/4-3/index.html` | Beispiel: Nernst-Gleichung zu Punkt 4.3 |
 | `docs/elektrochemie/abschluss/index.html` | Verbindende Abschlussübung mit Hilfen und Lösungen |
@@ -115,3 +116,9 @@ Die Druckschaltfläche öffnet vor dem Drucken alle Hilfen und Lösungen und ste
 Die Lerntexte, Aufgaben, Musterlösungen und Abbildungen sind eigenständig erstellt. Fachliche Quellen stehen beim jeweiligen Lernmaterial. Synthetische Daten und schematische Kurven sind als solche gekennzeichnet; sie sind keine Messungen realer Schülerproben. Modellannahmen, etwa konstante Temperatur oder eine Volumenkorrektur, stehen bei den Aufgaben. Es werden keine externen Schriftarten, JavaScript-Bibliotheken, eingebetteten Videos oder zusätzlichen Analysedienste geladen. Die Website legt selbst keine Schülerkonten an und speichert keine Lernstände. Der Hostinganbieter kann unabhängig davon Zugriffsprotokolle führen.
 
 Eine offene Lizenz für Texte und Abbildungen wurde noch nicht festgelegt.
+
+## Anbieterkennzeichnung
+
+Das Impressum liegt unter `docs/impressum.html`. Jede HTML-Seite, einschließlich der eigenständig aufrufbaren Druckvorlagen, enthält im Fußbereich einen direkten Link dorthin. Neue Seiten müssen diesen Link ebenfalls erhalten. Die Anschrift wird ausschließlich im Impressum gepflegt.
+
+Die Impressumsseite bittet Suchmaschinen über `noindex` darum, sie nicht in Suchergebnisse aufzunehmen. Die Seite und die Repository-Historie bleiben öffentlich zugänglich; dies ist kein Zugriffsschutz. Ein späterer Wechsel der Anschrift entfernt ältere Angaben nicht automatisch aus der Versionsgeschichte.
