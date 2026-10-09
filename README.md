@@ -61,6 +61,7 @@ Der Ordner `docs` enthält die vollständige Website. GitHub Pages ist bereits f
 | --- | --- |
 | `docs/index.html` | Startseite mit beiden Unterrichtsreihen |
 | `docs/impressum.html` | Anbieterkennzeichnung und Kontakt; von allen HTML-Seiten direkt verlinkt |
+| `docs/datenschutz.html` | Datenschutzerklärung für Hosting, Websitefunktionen und E-Mail-Kontakt |
 | `docs/elektrochemie/index.html` | Neue Übersicht mit 32 Checklistenpunkten und Suche |
 | `docs/elektrochemie/4-3/index.html` | Beispiel: Nernst-Gleichung zu Punkt 4.3 |
 | `docs/elektrochemie/abschluss/index.html` | Verbindende Abschlussübung mit Hilfen und Lösungen |
@@ -119,6 +120,14 @@ Eine offene Lizenz für Texte und Abbildungen wurde noch nicht festgelegt.
 
 ## Anbieterkennzeichnung
 
-Das Impressum liegt unter `docs/impressum.html`. Jede HTML-Seite, einschließlich der eigenständig aufrufbaren Druckvorlagen, enthält im Fußbereich einen direkten Link dorthin. Neue Seiten müssen diesen Link ebenfalls erhalten. Die Anschrift wird ausschließlich im Impressum gepflegt.
+Das Impressum liegt unter `docs/impressum.html`. Jede HTML-Seite, einschließlich der eigenständig aufrufbaren Druckvorlagen, enthält im Fußbereich einen direkten Link dorthin. Neue Seiten müssen diesen Link ebenfalls erhalten. Bei Änderungen der Kontaktdaten müssen Impressum und Datenschutzerklärung gemeinsam aktualisiert werden.
 
 Die Impressumsseite bittet Suchmaschinen über `noindex` darum, sie nicht in Suchergebnisse aufzunehmen. Die Seite und die Repository-Historie bleiben öffentlich zugänglich; dies ist kein Zugriffsschutz. Ein späterer Wechsel der Anschrift entfernt ältere Angaben nicht automatisch aus der Versionsgeschichte.
+
+## Datenschutzerklärung
+
+`docs/datenschutz.html` beschreibt den tatsächlichen Umfang der statischen Website und ist von jeder HTML-Seite direkt erreichbar. Es werden keine eigenen Cookies, Analysewerkzeuge, externen Einbettungen, Benutzerkonten oder gespeicherten Lernprofile eingesetzt. Suche und Lösungshilfen funktionieren im Browser. GitHub Pages verarbeitet technische Zugriffsdaten; die Datenschutzerklärung benennt den Hostinganbieter, Drittlandübermittlungen und die veröffentlichten Kriterien zur Speicherdauer, ohne eine nicht belegte feste Löschfrist zu behaupten.
+
+Die Rechtsgrundlagen und Angaben zum E-Mail-Kontakt beziehen sich auf das eigenverantwortlich betriebene Lernangebot. Die beschriebene Löschung erledigter Kontaktanfragen ist auch im tatsächlichen Umgang mit dem Postfach umzusetzen. Wenn zusätzliche Dienste, Formulare, Einbettungen oder Konten eingeführt werden, ist die Erklärung vor deren Nutzung anzupassen. Ein Wechsel zum offiziellen Schulangebot erfordert eine erneute Prüfung von Verantwortlichkeit und Rechtsgrundlagen.
+
+Geprüfte Grundlagen (Stand 9. Oktober 2026): [LDI NRW – Muster für einfache Websites](https://www.ldi.nrw.de/datenschutz/medien-und-technik/websites-muster-fuer-datenschutzhinweise), [GitHub Pages – Data collection](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection), [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement), [EU-Kommission – EU-US-Datentransfers](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/eu-us-data-transfers_de). Eine Datenschutzerklärung dokumentiert die Datenverarbeitung; sie ersetzt nicht die Prüfung oder Umsetzung erforderlicher organisatorischer und vertraglicher Maßnahmen.
